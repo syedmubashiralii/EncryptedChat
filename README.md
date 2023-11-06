@@ -1,4 +1,4 @@
-# tea_talks
+# encrytedchat
 
 A new Flutter project.
 
