@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "130725020117",
+    "firebase_url": "https://ordrz-app-default-rtdb.firebaseio.com",
+    "project_id": "ordrz-app",
+    "storage_bucket": "ordrz-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130725020117:android:e64fde3c7c23aa1879fd5c",
+        "android_client_info": {
+          "package_name": "com.Ordrz.sale"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130725020117-6v4pc37o0bpk7eauqmb6r5sb5csjsrmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0PwDLMZ4liGZLQOcO31IAFbc2DubXPns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130725020117-6v4pc37o0bpk7eauqmb6r5sb5csjsrmq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "130725020117-933h2stsvm8pnhu6t7nbpq1egccl21am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ordrzae.ordrz"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130725020117:android:f2294f7ce9354c4f79fd5c",
+        "android_client_info": {
+          "package_name": "com.example.crypt_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130725020117-6v4pc37o0bpk7eauqmb6r5sb5csjsrmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0PwDLMZ4liGZLQOcO31IAFbc2DubXPns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130725020117-6v4pc37o0bpk7eauqmb6r5sb5csjsrmq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "130725020117-933h2stsvm8pnhu6t7nbpq1egccl21am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ordrzae.ordrz"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:130725020117:android:c6d5fa2721c15e3579fd5c",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "130725020117-hdjh0ngcqi009ga03l2mvu5ldgnoaet3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseproject",
+            "certificate_hash": "6d33eeae0cd522313c927d6bd87faeea84e0bca8"
+          }
+        },
+        {
+          "client_id": "130725020117-6v4pc37o0bpk7eauqmb6r5sb5csjsrmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0PwDLMZ4liGZLQOcO31IAFbc2DubXPns"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "130725020117-6v4pc37o0bpk7eauqmb6r5sb5csjsrmq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "130725020117-933h2stsvm8pnhu6t7nbpq1egccl21am.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ordrzae.ordrz"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
