@@ -1,10 +1,12 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:tea_talks/services/encoding_decoding_service.dart';
 import 'package:tea_talks/utility/firebase_constants.dart';
 import 'package:tea_talks/utility/ui_constants.dart';
 
 class ChatBubble extends StatelessWidget {
-  ChatBubble({
+  const ChatBubble({
+    super.key,
     required this.chatData,
     required this.name,
     required this.password,
@@ -28,6 +30,9 @@ class ChatBubble extends StatelessWidget {
     );
 
     bool isMe = (name == chatContents[kUserName]);
+    bool isText = (chatContents[kMessageType] == 'text');
+
+    debugPrint("type:${chatContents[kMessageType]}");
 
     return Align(
       alignment: isMe ? Alignment.centerRight : Alignment.centerLeft,
@@ -59,12 +64,22 @@ class ChatBubble extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 10),
-            Text(
-              chatContents[kMessageBody],
-              style: kLabelTextStyle.copyWith(
-                color: isMe ? kWhite : kBlack,
-              ),
-            ),
+            isText
+                ? Text(
+                    chatContents[kMessageBody],
+                    style: kLabelTextStyle.copyWith(
+                      color: isMe ? kWhite : kBlack,
+                    ),
+                  )
+                : CachedNetworkImage(
+                    imageUrl: chatContents[kMessageBody],
+                    placeholder: (context, url) =>
+                        const CircularProgressIndicator(
+                      color: Colors.white,
+                    ),
+                    errorWidget: (context, url, error) =>
+                        const Icon(Icons.error),
+                  ),
           ],
         ),
       ),

@@ -11,6 +11,7 @@ const kRoomName = 'roomName';
 const kVisitUrl = 'visitUrl';
 
 const kUserName = 'userName';
+const kMessageType = 'messageType';
 const kTimestamp = 'timestamp';
 const kMessageBody = 'messageBody';
 const kIsDoodle = 'isDoodle';
